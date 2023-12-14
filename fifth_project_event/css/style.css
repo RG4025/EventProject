@@ -1,0 +1,464 @@
+:root{
+    --bg-white: white;
+    --bg-black: black;
+    --bg-gray: gray;
+    --bg-red: red;
+    --font-family: 'Work Sans', sans-serif;
+
+}
+
+body{
+line-height: 1.7;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.section-ten-wrapper ul{
+    padding-left: 0;
+}
+.nav_section_height{
+    background-color: #fff;
+}
+.five-wrapper-two p{
+    margin: 0 auto;
+}
+
+.nav-one-one button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.offcanvas button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.navbar{
+    background-image: url(../image/background/hero_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.navbar::before{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    content: "";
+    background: rgba(0, 0, 0, 0.4);;
+}
+
+.navbar-one a{
+    text-decoration: none;
+    color: var(--bg-white);
+    font-family: var(--font-family);
+}
+.navbar-one{
+    z-index: 2;
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    width: 100%;
+    color: var(--bg-white);
+
+}
+
+.navbar-two{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    text-align: center;
+    width:80%;
+}
+
+.navbar-two h1{
+font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.navbar-two strong{
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: var(--font-family);
+}
+.navbar-two button{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background-color: rgb(235, 28, 15);
+    border-radius: 4px;
+    color: var(--bg-white);
+    text-transform: uppercase;
+    font-family: var(--font-family);
+
+}
+.navbar-two button:hover{
+    box-shadow: 1px 1px 10px black;
+
+}
+.navbar-two a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--bg-white);
+    font-family: var(--font-family);
+}
+.navbar-two p{
+    color: var(--bg-white);
+    font-family: var(--font-family);
+}
+
+.wrapper-one-one h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--bg-black);
+}
+
+.block-one strong{
+    color: #f23a2e;
+    font-size: 25px;
+}
+.block-one p{
+    width: 100px;
+    height: 70px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-bottom: 30x;
+}
+
+.wrapper-one-one button{
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    background-color: #f23a2e;
+    color: var(--bg-white);
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+.wrapper-one-one button:hover{
+    box-shadow: 1px 1px 8px black;
+}
+
+.six-div-parent{
+    text-align: center;
+}
+
+.block-one{
+    text-align: center;
+}
+
+.sec-two-img-one{
+    background-image: url(../image/illustration/img_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.sec-two-img-two{
+    background-image: url(../image/illustration/img_2.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.section-three-wrapper h1{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-size: 800;
+    font-family: none;
+    color: var(--bg-black);
+    font-weight: 700;
+    font-family: inherit;
+    letter-spacing: 2px;
+
+
+}
+
+.section-three-wrapper h1 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--bg-black);
+}
+
+.person-img{
+    overflow:hidden;
+}
+.person-img img:hover{
+    transform:scale(1.05);
+    overflow: hidden;
+}
+
+.three-wrapper-one{
+    margin-bottom: 15px;
+}
+
+.four-wrapper-img-one{
+    background-image: url(../image/background/img_3.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.four-wrapper-img-two{
+    background-image: url(../image/background/img_4.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.five-wrapper-one h1{
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.five-wrapper-two strong{
+    font-family: var(--font-family);
+    letter-spacing: 2px;
+}
+.five-wrapper-two i{
+    color: #f23a2e;
+    font-size: 50px;
+}
+
+.six-wrapper-one h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bg-black);
+}
+
+.seven-wrapper-one h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: var(--bg-black);
+
+}
+
+.seven-wrapper-one button{
+    border: none;
+    outline: none;
+    padding: 7px 30px;
+    background-color: #f23a2e;
+    color: var(--bg-white);
+    text-transform: capitalize;
+    border-radius: 4px;
+
+}
+
+.seven-wrapper-one button:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.seven-wrapper-one{
+    border: 1px solid gray;
+}
+.eight-wrapper-two h3{
+    font-size: 21px;
+    color: var(--bg-black);
+    
+}
+
+.eight-wrapper-two span{
+    color: #f23a2e;
+}
+
+.eight-wrapper-one h1{
+font-size: 2.5rem;
+color: var(--bg-black);
+text-transform: uppercase;
+font-weight: 700;
+
+}
+
+.section-nine{
+    background-color: var(--bg-black);
+
+}
+
+.nine-wrapper-one h6{
+    color: var(--bg-gray);
+}
+.nine-wrapper-one p{
+    color: var(--bg-white);
+
+}
+
+.nine-wrapper-one p i{
+    font-size: 25px;
+}
+
+.section-ten{
+    background-image: url(../image/background/hero_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
+
+.section-ten::after{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.section-ten-wrapper{
+    position:absolute;
+    top:2%;
+    left:5%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.ten-wrapper-one h3{
+    color: var(--bg-white);
+
+}
+
+.ten-wrapper-one p{
+    color: var(--bg-gray);
+
+}
+
+.ten-wrapper-one button{
+    border: none;
+    outline: none;
+    padding:4px 20px;
+    background-color: #f23a2e;
+    color: var(--bg-white);
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.ten-wrapper-one button:hover{
+    background-color: red;
+}
+
+.ten-wrapper-two h3{
+    color: var(--bg-white);
+
+}
+
+.ten-wrapper-four h3{
+    color: var(--bg-white);
+
+}
+
+.ten-wrapper-two li{
+    list-style-type: none;
+
+}
+
+.ten-wrapper-three li{
+    list-style-type: none;
+
+}
+
+.ten-wrapper-two a{
+    text-decoration: none;
+    color: var(--bg-gray);
+
+}
+
+.ten-wrapper-three a{
+    text-decoration: none;
+    color: var(--bg-gray);
+}
+
+.ten-wrapper-four a{
+    color: var(--bg-gray);
+    padding: 0 5px;
+}
+
+.ten-wrapper-four a:hover{
+    color: var(--bg-white);
+}
+
+.ten-wrapper-two a:hover{
+    color: var(--bg-white);
+}
+
+.ten-wrapper-three a:hover{
+    color: var(--bg-white);
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+
+@media(min-width:768px){
+    .navbar-two h1 {
+        font-size: 2.2rem;
+    }
+
+    .section-ten {
+        height: 351px;
+      }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+@media(min-width:992px){
+    .navbar-two {
+        width: 79%;
+      }
+
+      .navbar-two h1 {
+        font-size: 3.2rem;
+      }
+
+      .wrapper-one-one h1 {
+        font-size: 4rem;
+      }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media(min-width:1200px){
+    .navbar-two {
+        width: 75%;
+        left: 15%;
+      }
+
+      .navbar{
+        height: 800px;
+      }
+      .navbar-two h1 {
+        font-size: 4rem;
+      }
+
+      .wrapper-one-one h1 {
+        font-size: 4rem;
+      }
+}
